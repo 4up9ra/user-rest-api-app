@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: kirill
+  - include:
+      file: ddl/001_create_tables.sql
+      relativeToChangeLogFile: true
